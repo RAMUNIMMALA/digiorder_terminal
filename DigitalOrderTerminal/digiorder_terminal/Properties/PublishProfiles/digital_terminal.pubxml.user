@@ -1,0 +1,556 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\inetpub\wwwroot\test.digiorder.terminal</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="asset/css/bootstrap.css">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/css/font-awesome.css">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/css/skdslider.css">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/css/style.css">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/fontawesome-webfont.eot">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/fontawesome-webfont.ttf">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/fontawesome-webfont.woff">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/fontawesome-webfont.woff2">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/FontAwesome.otf">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/1.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/10.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/11.jpg">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/111.jpg">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/12.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/13.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/14.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/15.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/16.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/17.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/2.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/22.jpg">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/3.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/4.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/44.jpg">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/5.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/6.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/7.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/8.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/9.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/arrow.png">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/b1.jpg">
+      <publishTime>04/10/2020 23:34:03</publishTime>
+    </File>
+    <File Include="asset/images/b3.jpg">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv2.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv3.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv4.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv5.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv6.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv7.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv8.jpg">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv8.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/bv9.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/card.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/check.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/close_1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu2.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu3.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu4.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu5.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu6.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu7.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu8.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/gu9.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh2.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh3.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh4.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh5.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh6.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh7.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh8.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/hh9.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/icon1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/icon2.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/offer.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/p2.jpg">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/p3.jpg">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/p4.jpg">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/pc1.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/pc2.png">
+      <publishTime>04/10/2020 23:34:04</publishTime>
+    </File>
+    <File Include="asset/images/pc3.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc4.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc5.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc6.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc7.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc8.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pc9.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf1.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf2.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf3.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf4.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf5.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf6.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf7.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf8.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/pf9.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/si1.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/star.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/star1.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/t1.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/t2.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/t3.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/t4.jpg">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/images/tick.png">
+      <publishTime>04/10/2020 23:34:05</publishTime>
+    </File>
+    <File Include="asset/js/bootstrap.min.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/easing.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/jquery-1.11.1.min.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/minicart.min.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/move-top.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/responsiveslides.min.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="asset/js/skdslider.min.js">
+      <publishTime>04/10/2020 23:34:02</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>04/10/2020 23:21:25</publishTime>
+    </File>
+    <File Include="bin/digiorder_terminal.dll">
+      <publishTime>04/10/2020 23:57:35</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/10/2020 23:21:36</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/10/2020 23:21:36</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/10/2020 23:21:41</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/10/2020 23:21:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/10/2020 23:21:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>04/10/2020 23:21:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>04/10/2020 23:21:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>04/10/2020 23:21:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>04/10/2020 23:21:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>04/10/2020 23:21:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>04/10/2020 23:21:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>04/10/2020 23:21:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>04/10/2020 23:21:45</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>04/10/2020 23:21:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>04/10/2020 23:21:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/10/2020 23:21:30</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>04/10/2020 23:21:43</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>04/10/2020 23:21:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>04/10/2020 23:21:23</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>04/10/2020 23:21:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>04/10/2020 23:21:20</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>04/10/2020 23:21:21</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>04/10/2020 23:21:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>04/10/2020 23:21:22</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>04/10/2020 23:21:26</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>04/10/2020 23:21:46</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>04/10/2020 23:21:06</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>04/10/2020 23:21:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>04/10/2020 23:21:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>04/10/2020 23:21:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>04/10/2020 23:21:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>04/10/2020 23:21:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>04/10/2020 23:21:28</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>04/10/2020 23:21:28</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>04/10/2020 23:21:25</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>04/10/2020 23:21:27</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>04/10/2020 23:21:27</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>04/10/2020 23:34:06</publishTime>
+    </File>
+    <File Include="Views/Account/ConfirmEmail.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginConfirmation.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ExternalLoginFailure.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPassword.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ForgotPasswordConfirmation.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/Login.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/Register.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPassword.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/ResetPasswordConfirmation.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Account/SendCode.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Account/VerifyCode.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
+      <publishTime>04/10/2020 23:21:34</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>04/10/2020 23:46:02</publishTime>
+    </File>
+    <File Include="Views/Manage/AddPhoneNumber.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Manage/ChangePassword.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Manage/Index.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Manage/ManageLogins.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Manage/SetPassword.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Manage/VerifyPhoneNumber.cshtml">
+      <publishTime>04/10/2020 23:21:35</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>04/10/2020 23:21:33</publishTime>
+    </File>
+    <File Include="Views/Shared/_HomeLayout.cshtml">
+      <publishTime>04/10/2020 23:52:30</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>04/10/2020 23:21:33</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/10/2020 23:57:36</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
