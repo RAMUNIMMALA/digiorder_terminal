@@ -10,7 +10,15 @@ namespace digiorder_terminal.Controllers
     {
         public ActionResult Index()
         {
+            //to disable Home button
+            ViewBag.isHome = true;
+
             //load Category/Most Popular menu/Today Offers/Favorite
+            return View();
+        }
+
+        public ActionResult Menu(String GUID)
+        {
             return View();
         }
 

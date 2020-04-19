@@ -591,6 +591,7 @@ p.w3l-ad {
 .stars {
     text-align: center;
     margin-bottom: 13px;
+    margin-top: 13px;
 }
 i.blue-star {
     color: #3399cc;
@@ -906,7 +907,7 @@ a.w3_agile_vimeo:hover{
     color: #3399cc;
 }
 .breadcrumbs {
-    padding: 1em 0;
+    padding: 0.5em 0;
     background: #f5f5f5;
 }
 .breadcrumb {
@@ -2410,6 +2411,19 @@ h3.agileits-icons-title {
     text-align: center;
     word-wrap: break-word;
 }
+
+/* application custom styles*/
+.menu-price-block {
+    text-align: center;
+    color: green;
+}
+.menu-title-block {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    color: coral;
+}
+
 @media (max-width:991px){
 	h3.agileits-icons-title {
 		font-size: 28px;

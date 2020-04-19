@@ -23,7 +23,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     @Styles.Render("~/asset/css/font-awesome.css")
     @Scripts.Render("~/asset/js/jquery-1.11.1.min.js")
     @Scripts.Render("~/asset/js/move-top.js")
-    @Scripts.Render("~/asset/js/easing.js") 
+    @Scripts.Render("~/asset/js/easing.js")
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!-- font-awesome icons -->
@@ -46,29 +46,36 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- start-smoth-scrolling -->
 </head>
 <body>
+
     <div class="breadcrumbs">
         <div class="container">
-            <ol class="breadcrumb breadcrumb1 animated wow slideInLeft" data-wow-delay=".5s">
-                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-
-            </ol>
+            @if (ViewBag.isHome == null)
+            {
+                <div style="float:left; width:30%;">
+                    <a href="~/Home/"><span class="glyphicon glyphicon-home" aria-hidden="true" style="font-size:28px;color:#fe9126"></span></a>
+                </div>
+            }
+            <div style="float:right; width:5%;">
+                <a href="index.html"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true" style="font-size:28px;color:#fe9126"></span></a>
+            </div>
         </div>
     </div>
-        @RenderBody()
-   
-@Scripts.Render("~/asset/js/bootstrap.min.js") 
+
+    @RenderBody()
+
+    @Scripts.Render("~/asset/js/bootstrap.min.js")
     <!-- top-header and slider -->
     <!-- here stars scrolling icon -->
     <script type="text/javascript">
         $(document).ready(function () {
             /*
-				var defaults = {
-				containerID: 'toTop', // fading element id
-				containerHoverID: 'toTopHover', // fading element hover id
-				scrollSpeed: 1200,
-				easingType: 'linear'
-				};
-			*/
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+                };
+            */
 
             $().UItoTop({ easingType: 'easeOutQuart' });
 
@@ -79,6 +86,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!-- main slider-banner -->
     @Scripts.Render("~/asset/js/skdslider.min.js")
     @Styles.Render("~/asset/css/skdslider.css")
-   <!-- //main slider-banner -->
+    <!-- //main slider-banner -->
 </body>
 </html>
