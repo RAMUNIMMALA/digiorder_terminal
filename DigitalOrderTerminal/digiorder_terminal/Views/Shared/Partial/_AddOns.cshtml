@@ -1,0 +1,17 @@
+﻿@model IEnumerable<digiorder_terminal.Models.AddOnModel>
+<table cellpadding="1" cellspacing="1" border="1" style="width:100%">
+    <tr>
+        <th><input type="checkbox"/></th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Image</th>
+    </tr>
+    @foreach (var item in Model) {
+    <tr>
+        <td><input id="@item.ID" type="checkbox" /></td>
+        <td>@item.Title</td>
+        <td>@item.Price</td>
+        <td>@item.Image</td>
+    </tr>
+    }
+</table>

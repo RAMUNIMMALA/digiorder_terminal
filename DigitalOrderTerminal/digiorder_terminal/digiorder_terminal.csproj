@@ -167,6 +167,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AddOnModel.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -200,6 +201,9 @@
     <Content Include="asset\images\arrow.png" />
     <Content Include="asset\images\b1.jpg" />
     <Content Include="asset\images\b3.jpg" />
+    <Content Include="asset\images\bevarages.png" />
+    <Content Include="asset\images\biryani.png" />
+    <Content Include="asset\images\breakfast.png" />
     <Content Include="asset\images\bv1.png" />
     <Content Include="asset\images\bv2.png" />
     <Content Include="asset\images\bv3.png" />
@@ -255,13 +259,16 @@
     <Content Include="asset\images\pf7.png" />
     <Content Include="asset\images\pf8.png" />
     <Content Include="asset\images\pf9.png" />
+    <Content Include="asset\images\roti.png" />
     <Content Include="asset\images\si1.jpg" />
+    <Content Include="asset\images\soup.png" />
     <Content Include="asset\images\star.png" />
     <Content Include="asset\images\star1.png" />
     <Content Include="asset\images\t1.jpg" />
     <Content Include="asset\images\t2.jpg" />
     <Content Include="asset\images\t3.jpg" />
     <Content Include="asset\images\t4.jpg" />
+    <Content Include="asset\images\thali.png" />
     <Content Include="asset\images\tick.png" />
     <Content Include="asset\js\bootstrap.min.js" />
     <Content Include="asset\js\easing.js" />
@@ -311,7 +318,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
@@ -334,6 +340,8 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\_HomeLayout.cshtml" />
     <Content Include="Views\Home\Menu.cshtml" />
+    <Content Include="Views\Popup\Index.cshtml" />
+    <Content Include="Views\Shared\Partial\_AddOns.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

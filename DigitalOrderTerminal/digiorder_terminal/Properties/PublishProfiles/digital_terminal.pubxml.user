@@ -19,7 +19,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2020 23:34:03</publishTime>
     </File>
     <File Include="asset/css/style.css">
-      <publishTime>04/10/2020 23:34:03</publishTime>
+      <publishTime>04/19/2020 20:26:31</publishTime>
     </File>
     <File Include="asset/fonts/fontawesome-webfont.eot">
       <publishTime>04/10/2020 23:34:03</publishTime>
@@ -330,8 +330,14 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="bin/Antlr3.Runtime.dll">
       <publishTime>04/10/2020 23:21:25</publishTime>
     </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>04/10/2020 23:21:25</publishTime>
+    </File>
     <File Include="bin/digiorder_terminal.dll">
-      <publishTime>04/10/2020 23:57:35</publishTime>
+      <publishTime>04/21/2020 15:59:56</publishTime>
+    </File>
+    <File Include="bin/digiorder_terminal.pdb">
+      <publishTime>04/21/2020 15:59:56</publishTime>
     </File>
     <File Include="bin/EntityFramework.dll">
       <publishTime>04/10/2020 23:21:36</publishTime>
@@ -416,6 +422,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/Site.css">
       <publishTime>04/10/2020 23:21:02</publishTime>
+    </File>
+    <File Include="DBQueries/db_Tables.txt">
+      <publishTime>04/11/2020 12:50:01</publishTime>
     </File>
     <File Include="favicon.ico">
       <publishTime>04/10/2020 23:21:02</publishTime>
@@ -514,7 +523,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2020 23:21:34</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>04/10/2020 23:46:02</publishTime>
+      <publishTime>04/21/2020 15:57:42</publishTime>
+    </File>
+    <File Include="Views/Home/Menu.cshtml">
+      <publishTime>04/19/2020 21:15:21</publishTime>
     </File>
     <File Include="Views/Manage/AddPhoneNumber.cshtml">
       <publishTime>04/10/2020 23:21:35</publishTime>
@@ -538,7 +550,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2020 23:21:33</publishTime>
     </File>
     <File Include="Views/Shared/_HomeLayout.cshtml">
-      <publishTime>04/10/2020 23:52:30</publishTime>
+      <publishTime>04/19/2020 17:13:50</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
       <publishTime>04/10/2020 23:21:33</publishTime>
@@ -550,7 +562,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/10/2020 23:21:02</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/10/2020 23:57:36</publishTime>
+      <publishTime>04/21/2020 09:34:04</publishTime>
     </File>
   </ItemGroup>
 </Project>

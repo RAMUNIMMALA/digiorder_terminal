@@ -1,0 +1,37 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  
+    <script src="https://code.jquery.com/jquery-3.4.1.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            // here #mybtn is id of button,clicking which you want to open pop-up
+            $("#mybtn").click(function () {
+
+                // show Modal
+                $('#myModal').modal('show');
+
+                $.ajax({
+                    url: "/Popup/Modal",
+                    type: 'GET',
+                    success: function (data) {
+                        //here frmEmp is id of div where you need to place returned html
+                        $("#frmEmp").html(data);
+                    },
+                    error: function () {
+                        alert("Error");
+                    }
+
+                })
+            });
+        })
+    </script>
+</head>
+<body>
+    <div id="mybtn">Click</div>
+    <div id="#myModal">
+        <div id="frmEmp"></div>
+    </div>
+</body>
+</html>
